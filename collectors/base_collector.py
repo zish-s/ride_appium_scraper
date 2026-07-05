@@ -1,6 +1,7 @@
 import logging
 import time
 import random
+import os
 from appium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,6 +13,9 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import APPIUM_SERVER_URL, DESIRED_CAPS_BASE, APPS
 
 logger = logging.getLogger(__name__)
+
+DEBUG_SCREENSHOT_DIR = "data/debug_screenshots"
+os.makedirs(DEBUG_SCREENSHOT_DIR, exist_ok=True)
 
 
 def get_driver(app_name: str):
@@ -106,3 +110,58 @@ def parse_eta(raw_text: str):
         except ValueError:
             return None
     return None
+
+
+# ── New helpers ───────────────────────────────────────────────
+
+def debug_screenshot(driver, label: str):
+    """
+    Saves a screenshot so you can see what was actually on screen
+    when a selector wasn't found. Check data/debug_screenshots/
+    after a failed run to diagnose blocked dialogs, wrong screens, etc.
+    """
+    try:
+        ts = time.strftime("%Y%m%d_%H%M%S")
+        path = os.path.join(DEBUG_SCREENSHOT_DIR, f"{label}_{ts}.png")
+        driver.get_screenshot_as_file(path)
+        logger.warning(f"  Saved debug screenshot: {path}")
+    except Exception as e:
+        logger.debug(f"  Could not save screenshot: {e}")
+
+
+def ensure_home_screen(driver, home_marker, app_package, max_attempts=3):
+    """
+    Confirms the app is actually sitting on the screen we expect
+    (e.g. the 'Where to?' home screen) before we start interacting.
+    If it's not there (leftover dialog, resumed mid-flow, promo
+    interstitial, etc.) this presses back a few times and, as a
+    last resort, force-restarts the app fresh.
+
+    home_marker: a (by, selector) tuple for an element that only
+                 exists on the home/landing screen.
+    """
+    by, selector = home_marker
+
+    for attempt in range(max_attempts):
+        el = wait_and_find(driver, by, selector, timeout=6)
+        if el:
+            return True
+
+        logger.warning(f"  Not on home screen (attempt {attempt + 1}/{max_attempts}), pressing back")
+        try:
+            driver.back()
+            time.sleep(1.5)
+        except Exception:
+            pass
+
+    # Last resort: force-stop and relaunch fresh (keeps login, resets nav stack)
+    logger.warning("  Forcing app restart to recover a clean home screen")
+    try:
+        driver.terminate_app(app_package)
+        time.sleep(1.0)
+        driver.activate_app(app_package)
+        time.sleep(4.0)
+    except Exception as e:
+        logger.debug(f"  Force restart failed: {e}")
+
+    return wait_and_find(driver, by, selector, timeout=10) is not None

@@ -51,7 +51,7 @@ DESIRED_CAPS_BASE = {
     "noReset":              True,       # keeps you logged in between runs
     "fullReset":            False,
     "newCommandTimeout":    120,
-    "autoGrantPermissions": True,
+    "autoGrantPermissions": False,
 }
 
 # ── App package names (do not change) ────────────────────────

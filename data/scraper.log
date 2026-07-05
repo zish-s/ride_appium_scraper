@@ -208,3 +208,106 @@ Starting fare collector
 2026-07-03 12:02:46,929  ERROR      [Uber] 'Where to?' not found
 2026-07-03 12:02:49,645  INFO       Cycle 1 complete - 0 rows collected
 2026-07-03 12:02:49,647  INFO     Collection complete. Total rows: 0
+2026-07-06 00:24:49,146  INFO     Starting fare collector
+2026-07-06 00:24:49,147  INFO       Interval  : every 30 min
+2026-07-06 00:24:49,147  INFO       Duration  : 1 cycle (--once)
+2026-07-06 00:24:49,147  INFO       Max cycles: 1
+2026-07-06 00:24:49,148  INFO       Output    : data/fares.csv
+2026-07-06 00:24:49,148  INFO     =======================================================
+2026-07-06 00:24:49,148  INFO       CYCLE 1  |  2026-07-06T00:24:49
+2026-07-06 00:24:49,148  INFO     =======================================================
+2026-07-06 00:24:50,308  INFO       [Weather] overcast, 30.6°C, rain=0.0mm
+2026-07-06 00:24:50,311  INFO     -- Uber --
+2026-07-06 00:24:50,311  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:24:50,312  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:25:00,083  INFO       [uber] App launched
+2026-07-06 00:25:10,677  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:25:10,677  WARNING    Not on home screen (attempt 1/3), pressing back
+2026-07-06 00:25:19,097  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:25:19,097  WARNING    Not on home screen (attempt 2/3), pressing back
+2026-07-06 00:25:27,371  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:25:27,372  WARNING    Not on home screen (attempt 3/3), pressing back
+2026-07-06 00:25:29,852  WARNING    Forcing app restart to recover a clean home screen
+2026-07-06 00:25:46,578  WARNING    Element not found in 10s: Where to?
+2026-07-06 00:25:46,578  ERROR      [Uber] Could not reach home screen
+2026-07-06 00:25:47,229  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_002546.png
+2026-07-06 00:25:47,995  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-06 00:25:50,268  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:25:50,268  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:25:59,637  INFO       [uber] App launched
+2026-07-06 00:26:11,240  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:26:11,241  WARNING    Not on home screen (attempt 1/3), pressing back
+2026-07-06 00:26:19,861  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:26:19,862  WARNING    Not on home screen (attempt 2/3), pressing back
+2026-07-06 00:26:28,013  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:26:28,014  WARNING    Not on home screen (attempt 3/3), pressing back
+2026-07-06 00:26:29,727  WARNING    Forcing app restart to recover a clean home screen
+2026-07-06 00:26:46,175  WARNING    Element not found in 10s: Where to?
+2026-07-06 00:26:46,176  ERROR      [Uber] Could not reach home screen
+2026-07-06 00:26:46,741  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_002646.png
+2026-07-06 00:26:47,422  ERROR      [Uber] All attempts failed for AIIMS Hospital Delhi
+2026-07-06 00:26:49,423  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-06 00:26:49,423  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:26:58,304  INFO       [uber] App launched
+2026-07-06 00:33:08,564  INFO     Starting fare collector
+2026-07-06 00:33:08,565  INFO       Interval  : every 30 min
+2026-07-06 00:33:08,565  INFO       Duration  : 1 cycle (--once)
+2026-07-06 00:33:08,565  INFO       Max cycles: 1
+2026-07-06 00:33:08,565  INFO       Output    : data/fares.csv
+2026-07-06 00:33:08,566  INFO     =======================================================
+2026-07-06 00:33:08,566  INFO       CYCLE 1  |  2026-07-06T00:33:08
+2026-07-06 00:33:08,566  INFO     =======================================================
+2026-07-06 00:33:09,818  INFO       [Weather] overcast, 30.5°C, rain=0.0mm
+2026-07-06 00:33:09,820  INFO     -- Uber --
+2026-07-06 00:33:09,821  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:33:09,822  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:33:20,183  INFO       [uber] App launched
+2026-07-06 00:33:44,528  WARNING    Element not found in 20s: Where to?
+2026-07-06 00:33:44,529  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 00:34:04,681  INFO     Starting fare collector
+2026-07-06 00:34:04,681  INFO       Interval  : every 30 min
+2026-07-06 00:34:04,682  INFO       Duration  : 1 cycle (--once)
+2026-07-06 00:34:04,682  INFO       Max cycles: 1
+2026-07-06 00:34:04,682  INFO       Output    : data/fares.csv
+2026-07-06 00:34:04,682  INFO     =======================================================
+2026-07-06 00:34:04,682  INFO       CYCLE 1  |  2026-07-06T00:34:04
+2026-07-06 00:34:04,682  INFO     =======================================================
+2026-07-06 00:34:05,830  INFO       [Weather] overcast, 30.5°C, rain=0.0mm
+2026-07-06 00:34:05,832  INFO     -- Uber --
+2026-07-06 00:34:05,833  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:34:05,833  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:34:18,430  INFO       [uber] App launched
+2026-07-06 00:34:43,654  WARNING    Element not found in 20s: Where to?
+2026-07-06 00:34:43,654  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 00:42:40,437  INFO     Starting fare collector
+2026-07-06 00:42:40,437  INFO       Interval  : every 30 min
+2026-07-06 00:42:40,437  INFO       Duration  : 1 cycle (--once)
+2026-07-06 00:42:40,437  INFO       Max cycles: 1
+2026-07-06 00:42:40,438  INFO       Output    : data/fares.csv
+2026-07-06 00:42:40,438  INFO     =======================================================
+2026-07-06 00:42:40,438  INFO       CYCLE 1  |  2026-07-06T00:42:40
+2026-07-06 00:42:40,438  INFO     =======================================================
+2026-07-06 00:42:41,727  INFO       [Weather] overcast, 30.5°C, rain=0.0mm
+2026-07-06 00:42:41,729  INFO     -- Uber --
+2026-07-06 00:42:41,730  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:42:41,730  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:42:54,879  INFO       [uber] App launched
+2026-07-06 00:43:05,933  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:43:05,935  WARNING    Not on home screen (attempt 1/3), pressing back
+2026-07-06 00:43:14,644  WARNING    Element not found in 6s: Where to?
+2026-07-06 00:43:14,645  WARNING    Not on home screen (attempt 2/3), pressing back
+2026-07-06 00:43:50,230  INFO     Starting fare collector
+2026-07-06 00:43:50,231  INFO       Interval  : every 30 min
+2026-07-06 00:43:50,231  INFO       Duration  : 1 cycle (--once)
+2026-07-06 00:43:50,231  INFO       Max cycles: 1
+2026-07-06 00:43:50,231  INFO       Output    : data/fares.csv
+2026-07-06 00:43:50,231  INFO     =======================================================
+2026-07-06 00:43:50,232  INFO       CYCLE 1  |  2026-07-06T00:43:50
+2026-07-06 00:43:50,232  INFO     =======================================================
+2026-07-06 00:43:51,570  INFO       [Weather] overcast, 30.5°C, rain=0.0mm
+2026-07-06 00:43:51,572  INFO     -- Uber --
+2026-07-06 00:43:51,572  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:43:51,572  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:44:00,729  INFO       [uber] App launched
+2026-07-06 00:44:24,392  WARNING    Element not found in 20s: Where to?
+2026-07-06 00:44:24,393  WARNING    Not on home screen (attempt 1/3), pressing back
