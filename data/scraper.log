@@ -1,0 +1,210 @@
+2026-07-03 10:52:26,484  INFO     
+Starting fare collector
+2026-07-03 10:52:26,484  INFO       Interval  : every 30 min
+2026-07-03 10:52:26,484  INFO       Duration  : 1 cycle (--once)
+2026-07-03 10:52:26,484  INFO       Max cycles: 1
+2026-07-03 10:52:26,484  INFO       Output    : data/fares.csv
+
+2026-07-03 10:52:26,485  INFO     
+=======================================================
+2026-07-03 10:52:26,485  INFO       CYCLE 1  |  2026-07-03T10:52:26
+2026-07-03 10:52:26,485  INFO     =======================================================
+2026-07-03 10:52:27,454  INFO       [Weather] partly_cloudy, 32.7°C, rain=0.0mm
+2026-07-03 10:52:27,494  ERROR      [Uber] Driver error: missing 1 required keyword-only argument: 'options' (instance of driver `options.Options` class)
+2026-07-03 10:52:29,502  ERROR      [Uber] Driver error: missing 1 required keyword-only argument: 'options' (instance of driver `options.Options` class)
+2026-07-03 10:52:31,506  ERROR      [Uber] Driver error: missing 1 required keyword-only argument: 'options' (instance of driver `options.Options` class)
+2026-07-03 10:52:33,507  INFO     
+  Cycle 1 complete — 0 rows collected
+2026-07-03 10:52:33,507  INFO     
+=======================================================
+2026-07-03 10:52:33,508  INFO       Collection complete. Total rows: 0
+2026-07-03 10:52:33,508  INFO       Data saved to: data/fares.csv
+2026-07-03 10:52:33,509  INFO     =======================================================
+
+2026-07-03 10:58:37,142  INFO     
+Starting fare collector
+2026-07-03 10:58:37,142  INFO       Interval  : every 30 min
+2026-07-03 10:58:37,142  INFO       Duration  : 1 cycle (--once)
+2026-07-03 10:58:37,142  INFO       Max cycles: 1
+2026-07-03 10:58:37,142  INFO       Output    : data/fares.csv
+
+2026-07-03 10:58:37,142  INFO     
+=======================================================
+2026-07-03 10:58:37,143  INFO       CYCLE 1  |  2026-07-03T10:58:37
+2026-07-03 10:58:37,143  INFO     =======================================================
+2026-07-03 10:58:38,050  INFO       [Weather] partly_cloudy, 32.7°C, rain=0.0mm
+2026-07-03 10:58:38,058  INFO       [Uber] IGDTUW -> AIIMS Delhi
+2026-07-03 10:58:38,058  ERROR      [Uber] Driver error: name 'AppiumOptions' is not defined
+2026-07-03 10:58:40,059  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 10:58:40,059  ERROR      [Uber] Driver error: name 'AppiumOptions' is not defined
+2026-07-03 10:58:42,060  INFO       [Uber] IGDTUW -> IGI Airport
+2026-07-03 10:58:42,060  ERROR      [Uber] Driver error: name 'AppiumOptions' is not defined
+2026-07-03 10:58:44,061  INFO     
+  Cycle 1 complete — 0 rows collected
+2026-07-03 10:58:44,061  INFO     
+=======================================================
+2026-07-03 10:58:44,062  INFO       Collection complete. Total rows: 0
+2026-07-03 10:58:44,062  INFO       Data saved to: data/fares.csv
+2026-07-03 10:58:44,062  INFO     =======================================================
+
+2026-07-03 11:03:58,397  INFO     
+Starting fare collector
+2026-07-03 11:03:58,398  INFO       Interval  : every 30 min
+2026-07-03 11:03:58,398  INFO       Duration  : 1 cycle (--once)
+2026-07-03 11:03:58,398  INFO       Max cycles: 1
+2026-07-03 11:03:58,398  INFO       Output    : data/fares.csv
+
+2026-07-03 11:03:58,399  INFO     
+=======================================================
+2026-07-03 11:03:58,399  INFO       CYCLE 1  |  2026-07-03T11:03:58
+2026-07-03 11:03:58,399  INFO     =======================================================
+2026-07-03 11:03:59,295  INFO       [Weather] partly_cloudy, 33.0°C, rain=0.0mm
+2026-07-03 11:03:59,302  INFO       [Uber] IGDTUW -> AIIMS Delhi
+2026-07-03 11:03:59,302  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:04:01,303  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 11:04:01,303  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:04:03,304  INFO       [Uber] IGDTUW -> IGI Airport
+2026-07-03 11:04:03,305  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:04:05,306  INFO     
+  Cycle 1 complete — 0 rows collected
+2026-07-03 11:04:05,307  INFO     
+=======================================================
+2026-07-03 11:04:05,308  INFO       Collection complete. Total rows: 0
+2026-07-03 11:04:05,308  INFO       Data saved to: data/fares.csv
+2026-07-03 11:04:05,308  INFO     =======================================================
+
+2026-07-03 11:06:37,344  INFO     Starting fare collector
+2026-07-03 11:06:37,345  INFO       Interval  : every 30 min
+2026-07-03 11:06:37,345  INFO       Duration  : 1 cycle (--once)
+2026-07-03 11:06:37,345  INFO       Max cycles: 1
+2026-07-03 11:06:37,346  INFO       Output    : data/fares.csv
+2026-07-03 11:06:37,346  INFO     =======================================================
+2026-07-03 11:06:37,346  INFO       CYCLE 1  |  2026-07-03T11:06:37
+2026-07-03 11:06:37,346  INFO     =======================================================
+2026-07-03 11:06:38,216  INFO       [Weather] partly_cloudy, 33.0Â°C, rain=0.0mm
+2026-07-03 11:06:38,219  INFO     -- Uber --
+2026-07-03 11:06:38,219  INFO       [Uber] IGDTUW -> AIIMS Delhi
+2026-07-03 11:06:38,219  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:06:40,220  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 11:06:40,220  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:06:42,221  INFO       [Uber] IGDTUW -> IGI Airport
+2026-07-03 11:06:42,221  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:06:44,222  INFO       Cycle 1 complete - 0 rows collected
+2026-07-03 11:06:44,222  INFO     Collection complete. Total rows: 0
+2026-07-03 11:23:20,184  INFO     Starting fare collector
+2026-07-03 11:23:20,185  INFO       Interval  : every 30 min
+2026-07-03 11:23:20,185  INFO       Duration  : 1 cycle (--once)
+2026-07-03 11:23:20,185  INFO       Max cycles: 1
+2026-07-03 11:23:20,186  INFO       Output    : data/fares.csv
+2026-07-03 11:23:20,186  INFO     =======================================================
+2026-07-03 11:23:20,186  INFO       CYCLE 1  |  2026-07-03T11:23:20
+2026-07-03 11:23:20,186  INFO     =======================================================
+2026-07-03 11:23:21,140  INFO       [Weather] overcast, 33.2Â°C, rain=0.0mm
+2026-07-03 11:23:21,142  INFO     -- Uber --
+2026-07-03 11:23:21,143  INFO       [Uber] IGDTUW -> AIIMS Delhi
+2026-07-03 11:23:21,143  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:23:23,144  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 11:23:23,144  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:23:25,145  INFO       [Uber] IGDTUW -> IGI Airport
+2026-07-03 11:23:25,145  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:23:27,146  INFO       Cycle 1 complete - 0 rows collected
+2026-07-03 11:23:27,146  INFO     Collection complete. Total rows: 0
+2026-07-03 11:30:31,764  INFO     Starting fare collector
+2026-07-03 11:30:31,764  INFO       Interval  : every 30 min
+2026-07-03 11:30:31,764  INFO       Duration  : 1 cycle (--once)
+2026-07-03 11:30:31,765  INFO       Max cycles: 1
+2026-07-03 11:30:31,765  INFO       Output    : data/fares.csv
+2026-07-03 11:30:31,765  INFO     =======================================================
+2026-07-03 11:30:31,765  INFO       CYCLE 1  |  2026-07-03T11:30:31
+2026-07-03 11:30:31,765  INFO     =======================================================
+2026-07-03 11:30:33,718  INFO       [Weather] overcast, 33.4Â°C, rain=0.0mm
+2026-07-03 11:30:33,721  INFO     -- Uber --
+2026-07-03 11:30:33,721  INFO       [Uber] IGDTUW -> AIIMS Delhi
+2026-07-03 11:30:33,722  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:30:35,722  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 11:30:35,723  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:30:37,723  INFO       [Uber] IGDTUW -> IGI Airport
+2026-07-03 11:30:37,724  ERROR      [Uber] Driver error: WebDriver.__init__() got an unexpected keyword argument 'desired_capabilities'
+2026-07-03 11:30:39,724  INFO       Cycle 1 complete - 0 rows collected
+2026-07-03 11:30:39,725  INFO     Collection complete. Total rows: 0
+2026-07-03 11:37:37,800  INFO     Starting fare collector
+2026-07-03 11:37:37,801  INFO       Interval  : every 30 min
+2026-07-03 11:37:37,801  INFO       Duration  : 1 cycle (--once)
+2026-07-03 11:37:37,801  INFO       Max cycles: 1
+2026-07-03 11:37:37,801  INFO       Output    : data/fares.csv
+2026-07-03 11:37:37,801  INFO     =======================================================
+2026-07-03 11:37:37,802  INFO       CYCLE 1  |  2026-07-03T11:37:37
+2026-07-03 11:37:37,802  INFO     =======================================================
+2026-07-03 11:37:38,685  INFO       [Weather] overcast, 33.4Â°C, rain=0.0mm
+2026-07-03 11:37:38,688  INFO     -- Uber --
+2026-07-03 11:37:38,689  INFO       [Uber] IGDTUW -> AIIMS Delhi
+2026-07-03 11:37:38,690  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 11:37:50,473  INFO       [uber] App launched
+2026-07-03 11:38:15,091  WARNING    Elements not found in 10s: com.ubercab:id/edit_text
+2026-07-03 11:38:15,092  ERROR      [Uber] Driver error: list index out of range
+2026-07-03 11:38:17,917  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 11:38:17,918  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 11:38:27,931  INFO       [uber] App launched
+2026-07-03 11:38:41,582  WARNING    Element not found in 10s: Where to?
+2026-07-03 11:38:41,583  ERROR      [Uber] 'Where to?' not found
+2026-07-03 11:38:44,973  INFO       [Uber] IGDTUW -> IGI Airport
+2026-07-03 11:38:44,974  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 11:38:58,696  INFO       [uber] App launched
+2026-07-03 11:39:12,641  WARNING    Element not found in 10s: Where to?
+2026-07-03 11:39:12,642  ERROR      [Uber] 'Where to?' not found
+2026-07-03 11:39:15,742  INFO       Cycle 1 complete - 0 rows collected
+2026-07-03 11:39:15,742  INFO     Collection complete. Total rows: 0
+2026-07-03 11:56:41,323  INFO     Starting fare collector
+2026-07-03 11:56:41,323  INFO       Interval  : every 30 min
+2026-07-03 11:56:41,323  INFO       Duration  : 1 cycle (--once)
+2026-07-03 11:56:41,323  INFO       Max cycles: 1
+2026-07-03 11:56:41,323  INFO       Output    : data/fares.csv
+2026-07-03 11:56:41,324  INFO     =======================================================
+2026-07-03 11:56:41,324  INFO       CYCLE 1  |  2026-07-03T11:56:41
+2026-07-03 11:56:41,324  INFO     =======================================================
+2026-07-03 11:56:42,128  INFO       [Weather] overcast, 33.7Â°C, rain=0.0mm
+2026-07-03 11:56:42,131  INFO     -- Uber --
+2026-07-03 11:56:42,131  INFO       [Uber] IGDTUW -> AIIMS Hospital
+2026-07-03 11:56:42,132  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 11:56:54,020  INFO       [uber] App launched
+2026-07-03 11:57:12,217  WARNING    Element not found in 10s: Where to?
+2026-07-03 11:57:12,217  ERROR      [Uber] 'Where to?' not found
+2026-07-03 11:57:14,858  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 11:57:14,859  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 11:57:24,743  INFO       [uber] App launched
+2026-07-03 11:57:43,392  WARNING    Element not found in 10s: Where to?
+2026-07-03 11:57:43,393  ERROR      [Uber] 'Where to?' not found
+2026-07-03 11:57:46,045  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-03 11:57:46,046  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 11:57:56,178  INFO       [uber] App launched
+2026-07-03 11:58:15,612  WARNING    Element not found in 10s: Where to?
+2026-07-03 11:58:15,613  ERROR      [Uber] 'Where to?' not found
+2026-07-03 11:58:18,294  INFO       Cycle 1 complete - 0 rows collected
+2026-07-03 11:58:18,294  INFO     Collection complete. Total rows: 0
+2026-07-03 12:00:56,191  INFO     Starting fare collector
+2026-07-03 12:00:56,191  INFO       Interval  : every 30 min
+2026-07-03 12:00:56,192  INFO       Duration  : 1 cycle (--once)
+2026-07-03 12:00:56,192  INFO       Max cycles: 1
+2026-07-03 12:00:56,192  INFO       Output    : data/fares.csv
+2026-07-03 12:00:56,192  INFO     =======================================================
+2026-07-03 12:00:56,192  INFO       CYCLE 1  |  2026-07-03T12:00:56
+2026-07-03 12:00:56,192  INFO     =======================================================
+2026-07-03 12:00:57,114  INFO       [Weather] overcast, 33.9Â°C, rain=0.0mm
+2026-07-03 12:00:57,116  INFO     -- Uber --
+2026-07-03 12:00:57,117  INFO       [Uber] IGDTUW -> AIIMS Hospital
+2026-07-03 12:00:57,117  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 12:01:07,170  INFO       [uber] App launched
+2026-07-03 12:01:44,632  WARNING    Elements not found in 15s: order_selection_order_cell
+2026-07-03 12:01:44,633  WARNING    [Uber] No fare cards found
+2026-07-03 12:01:47,449  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-03 12:01:47,450  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 12:01:58,309  INFO       [uber] App launched
+2026-07-03 12:02:16,634  WARNING    Element not found in 10s: Where to?
+2026-07-03 12:02:16,634  ERROR      [Uber] 'Where to?' not found
+2026-07-03 12:02:19,422  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-03 12:02:19,423  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-03 12:02:29,554  INFO       [uber] App launched
+2026-07-03 12:02:46,929  WARNING    Element not found in 10s: Where to?
+2026-07-03 12:02:46,929  ERROR      [Uber] 'Where to?' not found
+2026-07-03 12:02:49,645  INFO       Cycle 1 complete - 0 rows collected
+2026-07-03 12:02:49,647  INFO     Collection complete. Total rows: 0
