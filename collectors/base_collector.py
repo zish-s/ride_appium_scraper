@@ -129,39 +129,36 @@ def debug_screenshot(driver, label: str):
         logger.debug(f"  Could not save screenshot: {e}")
 
 
-def ensure_home_screen(driver, home_marker, app_package, max_attempts=3):
+def ensure_home_screen(driver, home_marker, app_package, patient_timeout=25):
     """
     Confirms the app is actually sitting on the screen we expect
     (e.g. the 'Where to?' home screen) before we start interacting.
-    If it's not there (leftover dialog, resumed mid-flow, promo
-    interstitial, etc.) this presses back a few times and, as a
-    last resort, force-restarts the app fresh.
+
+    On a real device the home screen can take a while to finish
+    rendering (promo banners, network calls, etc.), so we just wait
+    patiently — no navigation, no force-restarting the app. Killing
+    and relaunching the app mid-session via activate_app() is unreliable
+    without an explicit appActivity configured, so we deliberately don't
+    do that here — better to fail this one attempt cleanly (it'll be
+    retried) than risk leaving the app closed entirely.
 
     home_marker: a (by, selector) tuple for an element that only
                  exists on the home/landing screen.
     """
     by, selector = home_marker
 
-    for attempt in range(max_attempts):
-        el = wait_and_find(driver, by, selector, timeout=6)
-        if el:
-            return True
+    # Patient wait, no navigation. Covers slow rendering on real devices.
+    el = wait_and_find(driver, by, selector, timeout=patient_timeout)
+    if el:
+        return True
 
-        logger.warning(f"  Not on home screen (attempt {attempt + 1}/{max_attempts}), pressing back")
-        try:
-            driver.back()
-            time.sleep(1.5)
-        except Exception:
-            pass
-
-    # Last resort: force-stop and relaunch fresh (keeps login, resets nav stack)
-    logger.warning("  Forcing app restart to recover a clean home screen")
+    # One gentle recovery attempt: back once, in case a leftover dialog
+    # or resumed screen is in the way, then wait patiently again.
+    logger.warning("  Home screen not detected after patient wait, trying back once")
     try:
-        driver.terminate_app(app_package)
-        time.sleep(1.0)
-        driver.activate_app(app_package)
-        time.sleep(4.0)
-    except Exception as e:
-        logger.debug(f"  Force restart failed: {e}")
+        driver.back()
+        time.sleep(2.0)
+    except Exception:
+        pass
 
-    return wait_and_find(driver, by, selector, timeout=10) is not None
+    return wait_and_find(driver, by, selector, timeout=patient_timeout) is not None

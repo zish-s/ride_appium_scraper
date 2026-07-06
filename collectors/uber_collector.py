@@ -13,7 +13,7 @@ from config import PICKUP
 
 logger = logging.getLogger(__name__)
 
-SEL_WHERE_TO        = ("accessibility id", "Where to?")
+SEL_WHERE_TO        = ("xpath", "//*[contains(@text, 'Where to')]")
 SEL_EDIT_TEXT       = ("id", "com.ubercab:id/edit_text")
 SEL_SUGGESTION_LIST = ("id", "com.ubercab:id/ub__text_search_v2_results")
 SEL_FARE_LIST       = ("id", "order_selection_order_list")

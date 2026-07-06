@@ -311,3 +311,88 @@ Starting fare collector
 2026-07-06 00:44:00,729  INFO       [uber] App launched
 2026-07-06 00:44:24,392  WARNING    Element not found in 20s: Where to?
 2026-07-06 00:44:24,393  WARNING    Not on home screen (attempt 1/3), pressing back
+2026-07-06 00:58:16,444  INFO     Starting fare collector
+2026-07-06 00:58:16,444  INFO       Interval  : every 30 min
+2026-07-06 00:58:16,445  INFO       Duration  : 1 cycle (--once)
+2026-07-06 00:58:16,445  INFO       Max cycles: 1
+2026-07-06 00:58:16,445  INFO       Output    : data/fares.csv
+2026-07-06 00:58:16,446  INFO     =======================================================
+2026-07-06 00:58:16,446  INFO       CYCLE 1  |  2026-07-06T00:58:16
+2026-07-06 00:58:16,446  INFO     =======================================================
+2026-07-06 00:58:17,575  INFO       [Weather] overcast, 30.4°C, rain=0.0mm
+2026-07-06 00:58:17,579  INFO     -- Uber --
+2026-07-06 00:58:17,579  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:58:17,580  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 00:58:28,290  INFO       [uber] App launched
+2026-07-06 00:58:58,191  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 00:58:58,191  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 00:59:26,428  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 00:59:26,429  ERROR      [Uber] Could not reach home screen
+2026-07-06 00:59:27,558  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_005926.png
+2026-07-06 00:59:28,571  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-06 00:59:30,600  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 00:59:30,602  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:17:34,897  INFO     Starting fare collector
+2026-07-06 19:17:34,898  INFO       Interval  : every 30 min
+2026-07-06 19:17:34,898  INFO       Duration  : 1 cycle (--once)
+2026-07-06 19:17:34,898  INFO       Max cycles: 1
+2026-07-06 19:17:34,898  INFO       Output    : data/fares.csv
+2026-07-06 19:17:34,899  INFO     =======================================================
+2026-07-06 19:17:34,899  INFO       CYCLE 1  |  2026-07-06T19:17:34
+2026-07-06 19:17:34,900  INFO     =======================================================
+2026-07-06 19:17:36,088  INFO       [Weather] partly_cloudy, 32.7°C, rain=0.0mm
+2026-07-06 19:17:36,092  INFO     -- Uber --
+2026-07-06 19:17:36,092  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 19:17:36,093  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:18:01,130  ERROR      [Uber] Driver error: Message: Could not find a connected Android device in 20000ms
+Stacktrace:
+UnknownError: Could not find a connected Android device in 20000ms
+    at getResponseForW3CError (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\errors.js:846:36)
+    at asyncHandler (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:485:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+The above error is caused by
+Error: Could not find a connected Android device in 20000ms
+    at ADB.getDevicesWithRetry (C:\Users\ISHITA\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\build\lib\tools\system-calls.js:371:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.getDeviceInfoFromCaps (C:\Users\ISHITA\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\device\common.js:75:25)
+    at async AndroidUiautomator2Driver.createSession (file:///C:/Users/ISHITA/.appium/node_modules/appium-uiautomator2-driver/build/lib/driver.js:271:38)
+    at async AppiumDriver.createSession (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js:271:44)
+    at async runCommandPromise (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+    at async AppiumDriver.executeCommand (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:162:15)
+    at async defaultBehavior (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js:582:24)
+    at async AppiumDriver.executeWrappedCommand (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js:694:22)
+    at async AppiumDriver.executeCommand (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js:598:21)
+    at async asyncHandler (C:\Users\ISHITA\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:401:25)
+2026-07-06 19:18:01,131  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-06 19:18:03,158  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 19:18:03,159  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:29:38,521  INFO     Starting fare collector
+2026-07-06 19:29:38,521  INFO       Interval  : every 30 min
+2026-07-06 19:29:38,522  INFO       Duration  : 1 cycle (--once)
+2026-07-06 19:29:38,522  INFO       Max cycles: 1
+2026-07-06 19:29:38,522  INFO       Output    : data/fares.csv
+2026-07-06 19:29:38,522  INFO     =======================================================
+2026-07-06 19:29:38,522  INFO       CYCLE 1  |  2026-07-06T19:29:38
+2026-07-06 19:29:38,522  INFO     =======================================================
+2026-07-06 19:29:39,572  INFO       [Weather] mostly_clear, 32.7°C, rain=0.0mm
+2026-07-06 19:29:39,573  INFO     -- Uber --
+2026-07-06 19:29:39,574  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 19:29:39,574  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:29:56,303  INFO       [uber] App launched
+2026-07-06 19:30:26,757  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:30:26,757  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:30:53,433  INFO     Starting fare collector
+2026-07-06 19:30:53,433  INFO       Interval  : every 30 min
+2026-07-06 19:30:53,433  INFO       Duration  : 1 cycle (--once)
+2026-07-06 19:30:53,434  INFO       Max cycles: 1
+2026-07-06 19:30:53,434  INFO       Output    : data/fares.csv
+2026-07-06 19:30:53,434  INFO     =======================================================
+2026-07-06 19:30:53,434  INFO       CYCLE 1  |  2026-07-06T19:30:53
+2026-07-06 19:30:53,434  INFO     =======================================================
+2026-07-06 19:30:54,638  INFO       [Weather] mostly_clear, 32.4°C, rain=0.0mm
+2026-07-06 19:30:54,641  INFO     -- Uber --
+2026-07-06 19:30:54,641  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 19:30:54,642  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:31:05,536  INFO       [uber] App launched
+2026-07-06 19:31:35,660  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:31:35,660  WARNING    Home screen not detected after patient wait, trying back once
