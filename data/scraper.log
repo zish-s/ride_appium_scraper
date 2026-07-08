@@ -396,3 +396,418 @@ Error: Could not find a connected Android device in 20000ms
 2026-07-06 19:31:05,536  INFO       [uber] App launched
 2026-07-06 19:31:35,660  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
 2026-07-06 19:31:35,660  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:39:00,368  INFO     Starting fare collector
+2026-07-06 19:39:00,368  INFO       Interval  : every 30 min
+2026-07-06 19:39:00,368  INFO       Duration  : 1 cycle (--once)
+2026-07-06 19:39:00,369  INFO       Max cycles: 1
+2026-07-06 19:39:00,369  INFO       Output    : data/fares.csv
+2026-07-06 19:39:00,369  INFO     =======================================================
+2026-07-06 19:39:00,369  INFO       CYCLE 1  |  2026-07-06T19:39:00
+2026-07-06 19:39:00,369  INFO     =======================================================
+2026-07-06 19:39:01,449  INFO       [Weather] mostly_clear, 32.4°C, rain=0.0mm
+2026-07-06 19:39:01,452  INFO     -- Uber --
+2026-07-06 19:39:01,453  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 19:39:01,453  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:39:11,795  INFO       [uber] App launched
+2026-07-06 19:39:40,804  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:39:40,804  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:40:09,343  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:40:09,351  ERROR      [Uber] Could not reach home screen
+2026-07-06 19:40:09,884  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_194009.png
+2026-07-06 19:40:10,939  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-06 19:40:13,916  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-06 19:40:13,918  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:40:24,090  INFO       [uber] App launched
+2026-07-06 19:40:53,832  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:40:53,833  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:41:21,482  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:41:21,483  ERROR      [Uber] Could not reach home screen
+2026-07-06 19:41:22,455  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_194121.png
+2026-07-06 19:41:23,202  ERROR      [Uber] All attempts failed for AIIMS Hospital Delhi
+2026-07-06 19:41:25,209  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-06 19:41:25,209  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:41:34,544  INFO       [uber] App launched
+2026-07-06 19:42:03,664  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:42:03,665  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:42:31,754  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:42:31,760  ERROR      [Uber] Could not reach home screen
+2026-07-06 19:42:32,743  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_194231.png
+2026-07-06 19:42:33,522  WARNING    [Uber] Attempt 1 failed for Connaught Place, retrying
+2026-07-06 19:42:36,256  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-06 19:42:36,257  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:42:45,791  INFO       [uber] App launched
+2026-07-06 19:43:14,669  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:43:14,669  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:43:43,125  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:43:43,126  ERROR      [Uber] Could not reach home screen
+2026-07-06 19:43:44,240  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_194343.png
+2026-07-06 19:43:45,228  ERROR      [Uber] All attempts failed for Connaught Place
+2026-07-06 19:43:47,230  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-06 19:43:47,231  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:43:56,143  INFO       [uber] App launched
+2026-07-06 19:44:25,247  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:44:25,248  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:44:53,486  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:44:53,489  ERROR      [Uber] Could not reach home screen
+2026-07-06 19:44:54,524  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_194453.png
+2026-07-06 19:44:55,379  WARNING    [Uber] Attempt 1 failed for IGI Airport Terminal 1, retrying
+2026-07-06 19:44:57,749  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-06 19:44:57,750  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-06 19:45:07,878  INFO       [uber] App launched
+2026-07-06 19:45:37,634  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:45:37,634  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-06 19:46:05,950  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-06 19:46:05,973  ERROR      [Uber] Could not reach home screen
+2026-07-06 19:46:07,171  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260706_194605.png
+2026-07-06 19:46:08,173  ERROR      [Uber] All attempts failed for IGI Airport Terminal 1
+2026-07-06 19:46:10,176  INFO       Cycle 1 complete - 0 rows collected
+2026-07-06 19:46:10,177  INFO     Collection complete. Total rows: 0
+2026-07-07 12:51:50,571  INFO     Starting fare collector
+2026-07-07 12:51:50,572  INFO       Interval  : every 30 min
+2026-07-07 12:51:50,572  INFO       Duration  : 1 cycle (--once)
+2026-07-07 12:51:50,573  INFO       Max cycles: 1
+2026-07-07 12:51:50,573  INFO       Output    : data/fares.csv
+2026-07-07 12:51:50,573  INFO     =======================================================
+2026-07-07 12:51:50,574  INFO       CYCLE 1  |  2026-07-07T12:51:50
+2026-07-07 12:51:50,574  INFO     =======================================================
+2026-07-07 12:51:51,544  INFO       [Weather] partly_cloudy, 33.4°C, rain=0.0mm
+2026-07-07 12:51:51,548  INFO     -- Uber --
+2026-07-07 12:51:51,548  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 12:51:51,549  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 12:52:05,429  INFO       [uber] App launched
+2026-07-07 12:52:34,215  WARNING    Element not found in 25s: //*[contains(@text, 'Where to')]
+2026-07-07 12:52:34,215  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:39:34,442  INFO     Starting fare collector
+2026-07-07 13:39:34,445  INFO       Interval  : every 30 min
+2026-07-07 13:39:34,445  INFO       Duration  : 1 cycle (--once)
+2026-07-07 13:39:34,445  INFO       Max cycles: 1
+2026-07-07 13:39:34,445  INFO       Output    : data/fares.csv
+2026-07-07 13:39:34,445  INFO     =======================================================
+2026-07-07 13:39:34,446  INFO       CYCLE 1  |  2026-07-07T13:39:34
+2026-07-07 13:39:34,446  INFO     =======================================================
+2026-07-07 13:39:35,427  INFO       [Weather] partly_cloudy, 33.3°C, rain=0.0mm
+2026-07-07 13:39:35,430  INFO     -- Uber --
+2026-07-07 13:39:35,430  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 13:39:35,431  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:39:46,353  INFO       [uber] App launched
+2026-07-07 13:39:58,065  ERROR      [Uber] Expected 2 input fields, found 1
+2026-07-07 13:39:58,643  WARNING    Saved debug screenshot: data/debug_screenshots\uber_missing_fields_20260707_133958.png
+2026-07-07 13:39:59,386  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-07 13:40:01,695  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 13:40:01,695  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:40:12,220  INFO       [uber] App launched
+2026-07-07 13:40:41,163  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:40:41,164  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:41:08,761  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:41:08,761  ERROR      [Uber] Could not reach home screen
+2026-07-07 13:41:09,163  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_134108.png
+2026-07-07 13:41:09,884  ERROR      [Uber] All attempts failed for AIIMS Hospital Delhi
+2026-07-07 13:41:11,885  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 13:41:11,887  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:41:23,062  INFO       [uber] App launched
+2026-07-07 13:41:52,111  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:41:52,111  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:41:57,911  ERROR      [Uber] Expected 2 input fields, found 1
+2026-07-07 13:41:58,335  WARNING    Saved debug screenshot: data/debug_screenshots\uber_missing_fields_20260707_134157.png
+2026-07-07 13:41:59,166  WARNING    [Uber] Attempt 1 failed for Connaught Place, retrying
+2026-07-07 13:42:01,663  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 13:42:01,664  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:42:14,801  INFO       [uber] App launched
+2026-07-07 13:42:43,805  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:42:43,805  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:43:11,237  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:43:11,239  ERROR      [Uber] Could not reach home screen
+2026-07-07 13:43:11,704  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_134311.png
+2026-07-07 13:43:12,508  ERROR      [Uber] All attempts failed for Connaught Place
+2026-07-07 13:43:14,508  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 13:43:14,509  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:43:25,997  INFO       [uber] App launched
+2026-07-07 13:43:55,156  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:43:55,156  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:44:02,624  ERROR      [Uber] Expected 2 input fields, found 1
+2026-07-07 13:44:03,113  WARNING    Saved debug screenshot: data/debug_screenshots\uber_missing_fields_20260707_134402.png
+2026-07-07 13:44:03,867  WARNING    [Uber] Attempt 1 failed for IGI Airport Terminal 1, retrying
+2026-07-07 13:44:06,810  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 13:44:06,810  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:44:17,538  INFO       [uber] App launched
+2026-07-07 13:44:46,171  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:44:46,171  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:45:13,668  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:45:13,668  ERROR      [Uber] Could not reach home screen
+2026-07-07 13:45:14,094  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_134513.png
+2026-07-07 13:45:14,813  ERROR      [Uber] All attempts failed for IGI Airport Terminal 1
+2026-07-07 13:45:16,815  INFO       Cycle 1 complete - 0 rows collected
+2026-07-07 13:45:16,816  INFO     Collection complete. Total rows: 0
+2026-07-07 13:54:30,436  INFO     Starting fare collector
+2026-07-07 13:54:30,436  INFO       Interval  : every 30 min
+2026-07-07 13:54:30,436  INFO       Duration  : 1 cycle (--once)
+2026-07-07 13:54:30,436  INFO       Max cycles: 1
+2026-07-07 13:54:30,436  INFO       Output    : data/fares.csv
+2026-07-07 13:54:30,437  INFO     =======================================================
+2026-07-07 13:54:30,437  INFO       CYCLE 1  |  2026-07-07T13:54:30
+2026-07-07 13:54:30,437  INFO     =======================================================
+2026-07-07 13:54:31,345  INFO       [Weather] overcast, 33.4°C, rain=0.0mm
+2026-07-07 13:54:31,348  INFO     -- Uber --
+2026-07-07 13:54:31,349  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 13:54:31,350  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:54:44,196  INFO       [uber] App launched
+2026-07-07 13:55:29,450  INFO     Starting fare collector
+2026-07-07 13:55:29,450  INFO       Interval  : every 30 min
+2026-07-07 13:55:29,451  INFO       Duration  : 1 cycle (--once)
+2026-07-07 13:55:29,451  INFO       Max cycles: 1
+2026-07-07 13:55:29,451  INFO       Output    : data/fares.csv
+2026-07-07 13:55:29,451  INFO     =======================================================
+2026-07-07 13:55:29,452  INFO       CYCLE 1  |  2026-07-07T13:55:29
+2026-07-07 13:55:29,452  INFO     =======================================================
+2026-07-07 13:55:30,378  INFO       [Weather] overcast, 33.4°C, rain=0.0mm
+2026-07-07 13:55:30,379  INFO     -- Uber --
+2026-07-07 13:55:30,380  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 13:55:30,380  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:55:43,962  INFO       [uber] App launched
+2026-07-07 13:55:56,180  ERROR      [Uber] Driver error: Message: The element 'By.id: com.ubercab:id/ub__location_edit_search_pickup_view' does not exist in DOM anymore; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.ubercab:id/ub__location_edit_search_pickup_view' does not exist in DOM anymore
+	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:119)
+	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:155)
+	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:104)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:267)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:261)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:288)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:1572)
+
+2026-07-07 13:55:56,850  WARNING    Saved debug screenshot: data/debug_screenshots\uber_exception_20260707_135556.png
+2026-07-07 13:55:57,573  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-07 13:56:00,520  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 13:56:00,521  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:56:11,966  INFO       [uber] App launched
+2026-07-07 13:56:40,804  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:56:40,804  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:57:08,079  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:57:08,079  ERROR      [Uber] Could not reach home screen
+2026-07-07 13:57:08,532  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_135708.png
+2026-07-07 13:57:09,232  ERROR      [Uber] All attempts failed for AIIMS Hospital Delhi
+2026-07-07 13:57:11,233  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 13:57:11,233  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:57:22,764  INFO       [uber] App launched
+2026-07-07 13:57:52,820  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:57:52,820  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:58:08,573  WARNING    Element not found in 10s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 13:58:08,574  ERROR      [Uber] Pickup field not found
+2026-07-07 13:58:08,994  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260707_135808.png
+2026-07-07 13:58:09,686  WARNING    [Uber] Attempt 1 failed for Connaught Place, retrying
+2026-07-07 13:58:11,799  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 13:58:11,801  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:58:23,295  INFO       [uber] App launched
+2026-07-07 13:58:51,589  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:58:51,589  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 13:59:19,229  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 13:59:19,229  ERROR      [Uber] Could not reach home screen
+2026-07-07 13:59:19,658  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_135919.png
+2026-07-07 13:59:20,387  ERROR      [Uber] All attempts failed for Connaught Place
+2026-07-07 13:59:22,388  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 13:59:22,389  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 13:59:33,216  INFO       [uber] App launched
+2026-07-07 14:00:03,381  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:00:03,381  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:00:19,405  WARNING    Element not found in 10s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 14:00:19,405  ERROR      [Uber] Pickup field not found
+2026-07-07 14:00:19,873  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260707_140019.png
+2026-07-07 14:00:20,600  WARNING    [Uber] Attempt 1 failed for IGI Airport Terminal 1, retrying
+2026-07-07 14:00:23,277  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 14:00:23,277  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:00:34,244  INFO       [uber] App launched
+2026-07-07 14:01:03,384  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:01:03,385  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:01:30,985  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:01:30,985  ERROR      [Uber] Could not reach home screen
+2026-07-07 14:01:31,438  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_140130.png
+2026-07-07 14:01:32,156  ERROR      [Uber] All attempts failed for IGI Airport Terminal 1
+2026-07-07 14:01:34,157  INFO       Cycle 1 complete - 0 rows collected
+2026-07-07 14:01:34,159  INFO     Collection complete. Total rows: 0
+2026-07-07 14:05:13,787  INFO     Starting fare collector
+2026-07-07 14:05:13,788  INFO       Interval  : every 30 min
+2026-07-07 14:05:13,788  INFO       Duration  : 1 cycle (--once)
+2026-07-07 14:05:13,788  INFO       Max cycles: 1
+2026-07-07 14:05:13,788  INFO       Output    : data/fares.csv
+2026-07-07 14:05:13,789  INFO     =======================================================
+2026-07-07 14:05:13,789  INFO       CYCLE 1  |  2026-07-07T14:05:13
+2026-07-07 14:05:13,789  INFO     =======================================================
+2026-07-07 14:05:14,741  INFO       [Weather] overcast, 33.5°C, rain=0.0mm
+2026-07-07 14:05:14,746  INFO     -- Uber --
+2026-07-07 14:05:14,746  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 14:05:14,747  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:05:28,816  INFO     Starting fare collector
+2026-07-07 14:05:28,816  INFO       Interval  : every 30 min
+2026-07-07 14:05:28,817  INFO       Duration  : 1 cycle (--once)
+2026-07-07 14:05:28,817  INFO       Max cycles: 1
+2026-07-07 14:05:28,817  INFO       Output    : data/fares.csv
+2026-07-07 14:05:28,817  INFO     =======================================================
+2026-07-07 14:05:28,817  INFO       CYCLE 1  |  2026-07-07T14:05:28
+2026-07-07 14:05:28,818  INFO     =======================================================
+2026-07-07 14:05:29,773  INFO       [Weather] overcast, 33.5°C, rain=0.0mm
+2026-07-07 14:05:29,775  INFO     -- Uber --
+2026-07-07 14:05:29,775  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 14:05:29,775  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:05:44,306  INFO       [uber] App launched
+2026-07-07 14:06:08,171  WARNING    Element not found in 10s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 14:06:08,171  ERROR      [Uber] Pickup field disappeared after click
+2026-07-07 14:06:08,722  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_stale_20260707_140608.png
+2026-07-07 14:06:09,512  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-07 14:06:11,689  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 14:06:11,690  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:06:22,742  INFO       [uber] App launched
+2026-07-07 14:06:51,070  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:06:51,071  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:07:18,385  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:07:18,386  ERROR      [Uber] Could not reach home screen
+2026-07-07 14:07:18,872  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_140718.png
+2026-07-07 14:07:19,755  ERROR      [Uber] All attempts failed for AIIMS Hospital Delhi
+2026-07-07 14:07:21,759  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 14:07:21,760  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:07:35,039  INFO       [uber] App launched
+2026-07-07 14:08:04,075  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:08:04,077  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:08:25,026  WARNING    Element not found in 15s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 14:08:25,027  ERROR      [Uber] Pickup field not found
+2026-07-07 14:08:25,477  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260707_140825.png
+2026-07-07 14:08:26,594  WARNING    [Uber] Attempt 1 failed for Connaught Place, retrying
+2026-07-07 14:08:29,178  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 14:08:29,180  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:08:40,980  INFO       [uber] App launched
+2026-07-07 14:09:10,615  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:09:10,616  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:09:38,366  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:09:38,367  ERROR      [Uber] Could not reach home screen
+2026-07-07 14:09:38,814  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_140938.png
+2026-07-07 14:09:39,765  ERROR      [Uber] All attempts failed for Connaught Place
+2026-07-07 14:09:41,769  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 14:09:41,770  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:09:53,933  INFO       [uber] App launched
+2026-07-07 14:10:22,695  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:10:22,695  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:10:43,045  WARNING    Element not found in 15s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 14:10:43,051  ERROR      [Uber] Pickup field not found
+2026-07-07 14:10:43,505  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260707_141043.png
+2026-07-07 14:10:44,533  WARNING    [Uber] Attempt 1 failed for IGI Airport Terminal 1, retrying
+2026-07-07 14:10:47,300  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 14:10:47,302  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:10:59,311  INFO       [uber] App launched
+2026-07-07 14:11:28,379  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:11:28,379  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:11:55,959  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:11:55,962  ERROR      [Uber] Could not reach home screen
+2026-07-07 14:11:56,418  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_141155.png
+2026-07-07 14:11:57,273  ERROR      [Uber] All attempts failed for IGI Airport Terminal 1
+2026-07-07 14:11:59,275  INFO       Cycle 1 complete - 0 rows collected
+2026-07-07 14:11:59,276  INFO     Collection complete. Total rows: 0
+2026-07-07 14:13:02,167  INFO     Starting fare collector
+2026-07-07 14:13:02,167  INFO       Interval  : every 30 min
+2026-07-07 14:13:02,167  INFO       Duration  : 1 cycle (--once)
+2026-07-07 14:13:02,168  INFO       Max cycles: 1
+2026-07-07 14:13:02,168  INFO       Output    : data/fares.csv
+2026-07-07 14:13:02,168  INFO     =======================================================
+2026-07-07 14:13:02,168  INFO       CYCLE 1  |  2026-07-07T14:13:02
+2026-07-07 14:13:02,168  INFO     =======================================================
+2026-07-07 14:13:03,122  INFO       [Weather] overcast, 33.5°C, rain=0.0mm
+2026-07-07 14:13:03,125  INFO     -- Uber --
+2026-07-07 14:13:03,125  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 14:13:03,125  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:13:14,606  INFO       [uber] App launched
+2026-07-07 14:13:43,498  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:13:43,498  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:14:04,042  WARNING    Element not found in 15s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 14:14:04,043  ERROR      [Uber] Pickup field not found
+2026-07-07 14:14:04,515  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260707_141404.png
+2026-07-07 14:14:05,239  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-07 14:14:07,560  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-07 14:14:07,561  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:14:18,609  INFO       [uber] App launched
+2026-07-07 14:14:47,726  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:14:47,727  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:15:15,108  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:15:15,109  ERROR      [Uber] Could not reach home screen
+2026-07-07 14:15:15,562  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_141515.png
+2026-07-07 14:15:16,306  ERROR      [Uber] All attempts failed for AIIMS Hospital Delhi
+2026-07-07 14:15:18,307  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 14:15:18,308  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:15:29,127  INFO       [uber] App launched
+2026-07-07 14:15:58,232  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:15:58,233  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:16:18,800  WARNING    Element not found in 15s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 14:16:18,801  ERROR      [Uber] Pickup field not found
+2026-07-07 14:16:19,309  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260707_141618.png
+2026-07-07 14:16:20,381  WARNING    [Uber] Attempt 1 failed for Connaught Place, retrying
+2026-07-07 14:16:22,460  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-07 14:16:22,461  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:16:35,274  INFO       [uber] App launched
+2026-07-07 14:17:05,405  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:17:05,405  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:17:33,276  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:17:33,278  ERROR      [Uber] Could not reach home screen
+2026-07-07 14:17:33,735  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_141733.png
+2026-07-07 14:17:34,513  ERROR      [Uber] All attempts failed for Connaught Place
+2026-07-07 14:17:36,514  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 14:17:36,514  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:17:48,423  INFO       [uber] App launched
+2026-07-07 14:18:17,918  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:18:17,923  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:18:40,578  WARNING    Element not found in 15s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-07 14:18:40,580  ERROR      [Uber] Pickup field not found
+2026-07-07 14:18:41,124  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260707_141840.png
+2026-07-07 14:18:42,277  WARNING    [Uber] Attempt 1 failed for IGI Airport Terminal 1, retrying
+2026-07-07 14:18:44,305  INFO       [Uber] IGDTUW -> IGI Airport Terminal 1
+2026-07-07 14:18:44,306  INFO     Using base_collector from: C:\Users\ISHITA\Desktop\ride_appium_scraper\collectors\base_collector.py
+2026-07-07 14:18:57,375  INFO       [uber] App launched
+2026-07-07 14:19:26,858  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:19:26,859  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-07 14:19:54,651  WARNING    Element not found in 25s: Enter pickup location
+2026-07-07 14:19:54,655  ERROR      [Uber] Could not reach home screen
+2026-07-07 14:19:55,106  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260707_141954.png
+2026-07-07 14:19:56,036  ERROR      [Uber] All attempts failed for IGI Airport Terminal 1
+2026-07-07 14:19:58,037  INFO       Cycle 1 complete - 0 rows collected
+2026-07-07 14:19:58,038  INFO     Collection complete. Total rows: 0
+2026-07-08 16:31:56,453  INFO     Starting fare collector
+2026-07-08 16:31:56,453  INFO       Interval  : every 30 min
+2026-07-08 16:31:56,454  INFO       Duration  : 1 cycle (--once)
+2026-07-08 16:31:56,454  INFO       Max cycles: 1
+2026-07-08 16:31:56,454  INFO       Output    : data/fares.csv
+2026-07-08 16:31:56,454  INFO     =======================================================
+2026-07-08 16:31:56,455  INFO       CYCLE 1  |  2026-07-08T16:31:56
+2026-07-08 16:31:56,455  INFO     =======================================================
+2026-07-08 16:31:57,431  INFO       [Weather] overcast, 29.8°C, rain=0.0mm
+2026-07-08 16:31:57,434  INFO     -- Uber --
+2026-07-08 16:31:57,434  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-08 16:32:16,492  INFO       [uber] App launched
+2026-07-08 16:32:50,080  WARNING    Element not found in 15s: com.ubercab:id/ub__location_edit_search_destination_view
+2026-07-08 16:32:50,082  ERROR      [Uber] Destination field not found after setting pickup
+2026-07-08 16:32:50,786  WARNING    Saved debug screenshot: data/debug_screenshots\uber_destination_field_missing_20260708_163250.png
+2026-07-08 16:32:51,660  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-08 16:32:54,195  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-08 16:33:09,351  INFO       [uber] App launched
+2026-07-08 16:33:38,243  WARNING    Element not found in 25s: Enter pickup location
+2026-07-08 16:33:38,243  WARNING    Home screen not detected after patient wait, trying back once
