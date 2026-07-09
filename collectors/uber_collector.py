@@ -125,17 +125,16 @@ def _extract_eta(label: str):
 def _extract_vehicle_from_combined_label(label: str):
     """
     Handles labels like:
-    'Uber Go AC, ₹286.26, 15:30 · 2 min, Faster'
-    or
-    'Uber Go AC 4 ₹286.26 15:30 · 2 min Faster'
+    'selected,Uber Go AC,Fare ₹260.51,estimated drop-off 17:20,...'
+    'Auto,Fare ₹258.05,estimated drop-off 17:21,...'
     """
     label = _normalize_label(label)
 
-    price_match = PRICE_RE.search(label.replace(",", ""))
+    price_match = PRICE_RE.search(label)
     if not price_match:
         return None
 
-    # Take everything before the price.
+    # Everything before the ₹ price.
     before_price = label[:price_match.start()].strip(" ,·•|-")
 
     if not before_price:
@@ -147,7 +146,6 @@ def _extract_vehicle_from_combined_label(label: str):
         "recommended", "selected", "earn", "uber one"
     ]
 
-    # Split into possible text chunks.
     parts = [
         p.strip(" ,·•|-")
         for p in re.split(r"[,·•|\n]+", before_price)
@@ -157,18 +155,22 @@ def _extract_vehicle_from_combined_label(label: str):
     useful = []
 
     for p in parts:
-        lower = p.lower()
+        lower = p.lower().strip()
 
         if any(bad in lower for bad in bad_words):
             continue
 
-        if PRICE_RE.search(p.replace(",", "")):
+        # Important: Uber puts the word "Fare" before the price.
+        # We do NOT want to treat "Fare" as the vehicle name.
+        if lower == "fare" or lower.startswith("fare "):
+            continue
+
+        if PRICE_RE.search(p):
             continue
 
         if ETA_RE.search(p):
             continue
 
-        # Skip pure numbers like passenger count "4".
         if re.fullmatch(r"\d+", p):
             continue
 
@@ -177,7 +179,6 @@ def _extract_vehicle_from_combined_label(label: str):
     if not useful:
         return None
 
-    # Usually the vehicle name is the last useful thing before the price.
     return useful[-1]
 
 
@@ -320,29 +321,32 @@ def merge_fare_rows(existing: dict, new_rows: list):
 
 def scroll_ride_list_down(driver):
     """
-    Finger swipes upward, so the ride list moves down and shows lower vehicles.
+    Swipes upward inside the ride-options list.
+    This should reveal lower vehicles like Bike/Moto.
     """
     size = driver.get_window_size()
     width = size["width"]
     height = size["height"]
 
+    x = int(width * 0.50)
+
+    # Start inside the ride list, not on the bottom button.
+    start_y = int(height * 0.72)
+    end_y = int(height * 0.38)
+
     try:
-        driver.execute_script("mobile: swipeGesture", {
-            "left": int(width * 0.05),
-            "top": int(height * 0.30),
-            "width": int(width * 0.90),
-            "height": int(height * 0.45),
-            "direction": "up",
-            "percent": 0.65
-        })
+        driver.swipe(x, start_y, x, end_y, 900)
     except Exception:
-        driver.swipe(
-            int(width * 0.50),
-            int(height * 0.70),
-            int(width * 0.50),
-            int(height * 0.35),
-            600
-        )
+        try:
+            driver.execute_script("mobile: dragGesture", {
+                "startX": x,
+                "startY": start_y,
+                "endX": x,
+                "endY": end_y,
+                "speed": 700
+            })
+        except Exception as e:
+            logger.warning(f"  [Uber] Scroll failed: {e}")
 
 
 def collect_all_fares_with_scroll(driver, destination: dict, weather: dict = None, max_scrolls: int = 3) -> list:

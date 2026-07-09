@@ -76,6 +76,7 @@ def filter_target_vehicle_rows(rows: list) -> list:
 
 def write_rows(rows: list, cycle: int):
     if not rows:
+        logger.info("  No rows to save after filtering")
         return
     file_exists = os.path.isfile(CSV_OUTPUT_PATH)
     with open(CSV_OUTPUT_PATH, "a", newline="", encoding="utf-8") as f:

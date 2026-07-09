@@ -1024,3 +1024,60 @@ io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The ele
 2026-07-09 16:47:46,646  INFO         uber Fare: Rs.258.05 ETA=3min
 2026-07-09 16:47:51,648  INFO       [Uber] IGDTUW -> Connaught Place
 2026-07-09 16:48:02,768  INFO       [uber] App launched
+2026-07-09 17:29:06,636  INFO     Starting fare collector
+2026-07-09 17:29:06,637  INFO       Interval  : every 30 min
+2026-07-09 17:29:06,637  INFO       Duration  : 1 cycle (--once)
+2026-07-09 17:29:06,637  INFO       Max cycles: 1
+2026-07-09 17:29:06,638  INFO       Output    : data/fares.csv
+2026-07-09 17:29:06,638  INFO     =======================================================
+2026-07-09 17:29:06,638  INFO       CYCLE 1  |  2026-07-09T17:29:06
+2026-07-09 17:29:06,638  INFO     =======================================================
+2026-07-09 17:29:07,635  INFO       [Weather] drizzle, 26.1°C, rain=0.2mm
+2026-07-09 17:29:07,638  INFO     -- Uber --
+2026-07-09 17:29:21,589  INFO       [uber] App launched
+2026-07-09 17:30:01,214  INFO     Starting fare collector
+2026-07-09 17:30:01,215  INFO       Interval  : every 30 min
+2026-07-09 17:30:01,215  INFO       Duration  : 1 cycle (--once)
+2026-07-09 17:30:01,215  INFO       Max cycles: 1
+2026-07-09 17:30:01,216  INFO       Output    : data/fares.csv
+2026-07-09 17:30:01,216  INFO     =======================================================
+2026-07-09 17:30:01,217  INFO       CYCLE 1  |  2026-07-09T17:30:01
+2026-07-09 17:30:01,217  INFO     =======================================================
+2026-07-09 17:30:02,124  INFO       [Weather] drizzle, 26.0°C, rain=0.2mm
+2026-07-09 17:30:02,127  INFO     -- Uber --
+2026-07-09 17:30:13,343  INFO       [uber] App launched
+2026-07-09 17:30:17,873  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 17:30:49,370  INFO       [Uber] Visible text nodes found: 24
+2026-07-09 17:30:49,371  INFO       [Uber] Price nodes found: 4
+2026-07-09 17:30:49,372  INFO       [Uber] Scroll 0: collected 4 visible fares
+2026-07-09 17:30:49,373  INFO       [Uber] Total unique fares so far: 4
+2026-07-09 17:30:52,548  INFO       [Uber] Visible text nodes found: 27
+2026-07-09 17:30:52,549  INFO       [Uber] Price nodes found: 5
+2026-07-09 17:30:52,550  INFO       [Uber] Scroll 1: collected 5 visible fares
+2026-07-09 17:30:52,550  INFO       [Uber] Total unique fares so far: 6
+2026-07-09 17:30:55,737  INFO       [Uber] Visible text nodes found: 27
+2026-07-09 17:30:55,737  INFO       [Uber] Price nodes found: 6
+2026-07-09 17:30:55,739  INFO       [Uber] Scroll 2: collected 6 visible fares
+2026-07-09 17:30:55,740  INFO       [Uber] Total unique fares so far: 8
+2026-07-09 17:30:58,802  INFO       [Uber] Visible text nodes found: 26
+2026-07-09 17:30:58,803  INFO       [Uber] Price nodes found: 6
+2026-07-09 17:30:58,803  INFO       [Uber] Scroll 3: collected 6 visible fares
+2026-07-09 17:30:58,804  INFO       [Uber] Total unique fares so far: 11
+2026-07-09 17:30:58,805  INFO         uber Uber Go AC: Rs.276.68 ETA=3min
+2026-07-09 17:30:58,805  INFO         uber Auto: Rs.288.21 ETA=3min
+2026-07-09 17:30:58,805  INFO         uber Go Sedan: Rs.282.04 ETA=3min
+2026-07-09 17:30:58,805  INFO         uber UberXL: Rs.437.98 ETA=2min
+2026-07-09 17:30:58,806  INFO         uber Go Priority: Rs.317.43 ETA=2min
+2026-07-09 17:30:58,806  INFO         uber Request any: Rs.276.0 ETA=2min
+2026-07-09 17:30:58,807  INFO         uber Bike: Rs.144.07 ETA=3min
+2026-07-09 17:30:58,809  INFO         uber Premier AC: Rs.310.49 ETA=3min
+2026-07-09 17:30:58,810  INFO         uber Go Rentals: Rs.635.0 ETA=3min
+2026-07-09 17:30:58,810  INFO         uber Premier Rentals: Rs.773.0 ETA=4min
+2026-07-09 17:30:58,811  INFO         uber XL Rentals: Rs.980.0 ETA=4min
+2026-07-09 17:31:02,698  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-09 17:31:28,232  WARNING    Element not found in 25s: Enter pickup location
+2026-07-09 17:31:28,233  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-09 17:31:56,266  WARNING    Element not found in 20s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-09 17:31:56,267  ERROR      [Uber] Pickup field not found
+2026-07-09 17:31:56,927  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260709_173156.png
+2026-07-09 17:31:56,927  WARNING    [Uber] Attempt 1 failed for Connaught Place
