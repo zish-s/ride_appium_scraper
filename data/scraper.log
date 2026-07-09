@@ -811,3 +811,216 @@ io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The ele
 2026-07-08 16:33:09,351  INFO       [uber] App launched
 2026-07-08 16:33:38,243  WARNING    Element not found in 25s: Enter pickup location
 2026-07-08 16:33:38,243  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-09 14:40:36,618  INFO     Starting fare collector
+2026-07-09 14:40:36,619  INFO       Interval  : every 30 min
+2026-07-09 14:40:36,619  INFO       Duration  : 1 cycle (--once)
+2026-07-09 14:40:36,619  INFO       Max cycles: 1
+2026-07-09 14:40:36,619  INFO       Output    : data/fares.csv
+2026-07-09 14:40:36,620  INFO     =======================================================
+2026-07-09 14:40:36,620  INFO       CYCLE 1  |  2026-07-09T14:40:36
+2026-07-09 14:40:36,620  INFO     =======================================================
+2026-07-09 14:40:37,585  INFO       [Weather] showers, 26.1°C, rain=1.6mm
+2026-07-09 14:40:37,589  INFO     -- Uber --
+2026-07-09 14:40:37,590  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 14:40:59,368  INFO       [uber] App launched
+2026-07-09 14:41:32,052  WARNING    Element not found in 15s: com.ubercab:id/ub__location_edit_search_destination_view
+2026-07-09 14:41:32,053  ERROR      [Uber] Destination field not found after setting pickup
+2026-07-09 14:41:32,625  WARNING    Saved debug screenshot: data/debug_screenshots\uber_destination_field_missing_20260709_144132.png
+2026-07-09 14:41:33,359  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-09 14:41:36,068  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 14:54:29,378  INFO     Starting fare collector
+2026-07-09 14:54:29,378  INFO       Interval  : every 30 min
+2026-07-09 14:54:29,379  INFO       Duration  : 1 cycle (--once)
+2026-07-09 14:54:29,379  INFO       Max cycles: 1
+2026-07-09 14:54:29,379  INFO       Output    : data/fares.csv
+2026-07-09 14:54:29,379  INFO     =======================================================
+2026-07-09 14:54:29,379  INFO       CYCLE 1  |  2026-07-09T14:54:29
+2026-07-09 14:54:29,379  INFO     =======================================================
+2026-07-09 14:54:30,371  INFO       [Weather] showers, 26.1°C, rain=1.6mm
+2026-07-09 14:54:30,374  INFO     -- Uber --
+2026-07-09 14:54:30,374  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 14:54:45,320  INFO       [uber] App launched
+2026-07-09 14:55:36,399  WARNING    Elements not found in 20s: order_selection_order_cell
+2026-07-09 14:55:36,400  WARNING    [Uber] No fare cards found
+2026-07-09 14:55:37,030  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_fare_cards_20260709_145536.png
+2026-07-09 14:55:37,827  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-09 14:55:40,177  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:25:39,430  INFO     Starting fare collector
+2026-07-09 15:25:39,430  INFO       Interval  : every 30 min
+2026-07-09 15:25:39,430  INFO       Duration  : 1 cycle (--once)
+2026-07-09 15:25:39,430  INFO       Max cycles: 1
+2026-07-09 15:25:39,431  INFO       Output    : data/fares.csv
+2026-07-09 15:25:39,431  INFO     =======================================================
+2026-07-09 15:25:39,431  INFO       CYCLE 1  |  2026-07-09T15:25:39
+2026-07-09 15:25:39,431  INFO     =======================================================
+2026-07-09 15:25:40,290  INFO       [Weather] thunderstorm, 26.1°C, rain=1.6mm
+2026-07-09 15:25:40,293  INFO     -- Uber --
+2026-07-09 15:25:40,294  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:25:57,900  INFO       [uber] App launched
+2026-07-09 15:26:51,212  WARNING    Elements not found in 20s: com.ubercab:id/order_selection_order_cell
+2026-07-09 15:26:51,213  WARNING    [Uber] No fare cards found
+2026-07-09 15:26:51,907  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_fare_cards_20260709_152651.png
+2026-07-09 15:26:52,933  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-09 15:26:55,135  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:27:11,256  INFO       [uber] App launched
+2026-07-09 15:27:40,753  WARNING    Element not found in 25s: Enter pickup location
+2026-07-09 15:27:40,754  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-09 15:28:08,046  WARNING    Element not found in 25s: Enter pickup location
+2026-07-09 15:28:08,047  ERROR      [Uber] Could not reach home screen
+2026-07-09 15:28:08,700  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_home_screen_20260709_152808.png
+2026-07-09 15:28:09,513  ERROR      [Uber] All attempts failed for AIIMS Hospital Delhi
+2026-07-09 15:28:11,514  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-09 15:28:23,242  INFO       [uber] App launched
+2026-07-09 15:28:53,038  WARNING    Element not found in 25s: Enter pickup location
+2026-07-09 15:28:53,039  WARNING    Home screen not detected after patient wait, trying back once
+2026-07-09 15:30:52,826  INFO     Starting fare collector
+2026-07-09 15:30:52,826  INFO       Interval  : every 30 min
+2026-07-09 15:30:52,826  INFO       Duration  : 1 cycle (--once)
+2026-07-09 15:30:52,827  INFO       Max cycles: 1
+2026-07-09 15:30:52,827  INFO       Output    : data/fares.csv
+2026-07-09 15:30:52,827  INFO     =======================================================
+2026-07-09 15:30:52,827  INFO       CYCLE 1  |  2026-07-09T15:30:52
+2026-07-09 15:30:52,827  INFO     =======================================================
+2026-07-09 15:30:53,918  INFO       [Weather] thunderstorm, 26.1°C, rain=1.6mm
+2026-07-09 15:30:53,920  INFO     -- Uber --
+2026-07-09 15:30:53,921  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:31:07,979  INFO       [uber] App launched
+2026-07-09 15:32:09,894  INFO     Starting fare collector
+2026-07-09 15:32:09,894  INFO       Interval  : every 30 min
+2026-07-09 15:32:09,894  INFO       Duration  : 1 cycle (--once)
+2026-07-09 15:32:09,895  INFO       Max cycles: 1
+2026-07-09 15:32:09,895  INFO       Output    : data/fares.csv
+2026-07-09 15:32:09,895  INFO     =======================================================
+2026-07-09 15:32:09,895  INFO       CYCLE 1  |  2026-07-09T15:32:09
+2026-07-09 15:32:09,895  INFO     =======================================================
+2026-07-09 15:32:10,735  INFO       [Weather] thunderstorm, 26.1°C, rain=1.6mm
+2026-07-09 15:32:10,739  INFO     -- Uber --
+2026-07-09 15:32:10,739  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:32:21,547  INFO       [uber] App launched
+2026-07-09 15:32:53,366  WARNING    Element not found in 20s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-09 15:32:53,367  ERROR      [Uber] Pickup field not found
+2026-07-09 15:32:53,874  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260709_153253.png
+2026-07-09 15:32:54,593  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-09 15:32:56,778  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:36:28,630  INFO     Starting fare collector
+2026-07-09 15:36:28,630  INFO       Interval  : every 30 min
+2026-07-09 15:36:28,630  INFO       Duration  : 1 cycle (--once)
+2026-07-09 15:36:28,631  INFO       Max cycles: 1
+2026-07-09 15:36:28,631  INFO       Output    : data/fares.csv
+2026-07-09 15:36:28,631  INFO     =======================================================
+2026-07-09 15:36:28,631  INFO       CYCLE 1  |  2026-07-09T15:36:28
+2026-07-09 15:36:28,631  INFO     =======================================================
+2026-07-09 15:36:29,657  INFO       [Weather] thunderstorm, 26.1°C, rain=1.6mm
+2026-07-09 15:36:29,659  INFO     -- Uber --
+2026-07-09 15:36:29,660  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:36:41,101  INFO       [uber] App launched
+2026-07-09 15:37:12,466  INFO     Starting fare collector
+2026-07-09 15:37:12,467  INFO       Interval  : every 30 min
+2026-07-09 15:37:12,468  INFO       Duration  : 1 cycle (--once)
+2026-07-09 15:37:12,468  INFO       Max cycles: 1
+2026-07-09 15:37:12,469  INFO       Output    : data/fares.csv
+2026-07-09 15:37:12,469  INFO     =======================================================
+2026-07-09 15:37:12,470  INFO       CYCLE 1  |  2026-07-09T15:37:12
+2026-07-09 15:37:12,470  INFO     =======================================================
+2026-07-09 15:37:13,570  INFO       [Weather] thunderstorm, 26.1°C, rain=1.6mm
+2026-07-09 15:37:13,574  INFO     -- Uber --
+2026-07-09 15:37:13,575  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:37:26,625  INFO       [uber] App launched
+2026-07-09 15:37:55,906  WARNING    [Uber] No fares parsed from visible text
+2026-07-09 15:37:56,589  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_fare_text_20260709_153755.png
+2026-07-09 15:37:57,248  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-09 15:37:59,735  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:54:36,594  INFO     Starting fare collector
+2026-07-09 15:54:36,594  INFO       Interval  : every 30 min
+2026-07-09 15:54:36,595  INFO       Duration  : 1 cycle (--once)
+2026-07-09 15:54:36,595  INFO       Max cycles: 1
+2026-07-09 15:54:36,595  INFO       Output    : data/fares.csv
+2026-07-09 15:54:36,595  INFO     =======================================================
+2026-07-09 15:54:36,595  INFO       CYCLE 1  |  2026-07-09T15:54:36
+2026-07-09 15:54:36,596  INFO     =======================================================
+2026-07-09 15:54:37,535  INFO       [Weather] showers, 26.1°C, rain=0.8mm
+2026-07-09 15:54:37,537  INFO     -- Uber --
+2026-07-09 15:54:37,538  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 15:54:53,111  INFO       [uber] App launched
+2026-07-09 15:55:26,844  INFO       [Uber] Saved visible nodes dump: debug\uber_fare_screen_nodes.txt
+2026-07-09 15:55:27,468  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 15:55:27,469  INFO       [Uber] Price nodes found: 4
+2026-07-09 15:55:27,470  INFO         uber Far: Rs.259.5 ETA=3min
+2026-07-09 15:55:27,470  INFO         uber Fare: Rs.260.77 ETA=3min
+2026-07-09 15:55:27,471  INFO         uber Fare: Rs.272.79 ETA=3min
+2026-07-09 15:55:27,471  INFO         uber Fare: Rs.423.39 ETA=3min
+2026-07-09 15:55:32,197  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-09 15:55:43,413  INFO       [uber] App launched
+2026-07-09 16:12:00,050  INFO     Starting fare collector
+2026-07-09 16:12:00,050  INFO       Interval  : every 30 min
+2026-07-09 16:12:00,050  INFO       Duration  : 1 cycle (--once)
+2026-07-09 16:12:00,050  INFO       Max cycles: 1
+2026-07-09 16:12:00,050  INFO       Output    : data/fares.csv
+2026-07-09 16:12:00,050  INFO     =======================================================
+2026-07-09 16:12:00,051  INFO       CYCLE 1  |  2026-07-09T16:12:00
+2026-07-09 16:12:00,051  INFO     =======================================================
+2026-07-09 16:12:00,942  INFO       [Weather] showers, 26.2°C, rain=0.8mm
+2026-07-09 16:12:00,943  INFO     -- Uber --
+2026-07-09 16:12:00,944  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 16:13:53,178  INFO     Starting fare collector
+2026-07-09 16:13:53,178  INFO       Interval  : every 30 min
+2026-07-09 16:13:53,178  INFO       Duration  : 1 cycle (--once)
+2026-07-09 16:13:53,178  INFO       Max cycles: 1
+2026-07-09 16:13:53,178  INFO       Output    : data/fares.csv
+2026-07-09 16:13:53,179  INFO     =======================================================
+2026-07-09 16:13:53,179  INFO       CYCLE 1  |  2026-07-09T16:13:53
+2026-07-09 16:13:53,179  INFO     =======================================================
+2026-07-09 16:13:54,122  INFO       [Weather] showers, 26.2°C, rain=0.8mm
+2026-07-09 16:13:54,131  INFO     -- Uber --
+2026-07-09 16:13:54,132  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 16:14:09,059  INFO       [uber] App launched
+2026-07-09 16:14:44,509  INFO       [Uber] Saved visible nodes dump: debug\uber_fare_screen_nodes.txt
+2026-07-09 16:14:45,088  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:14:45,089  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:14:45,091  INFO       [Uber] Target fares found so far: []
+2026-07-09 16:14:48,396  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:14:48,396  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:14:48,397  INFO       [Uber] Target fares found so far: []
+2026-07-09 16:14:52,438  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:14:52,439  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:14:52,441  INFO       [Uber] Target fares found so far: []
+2026-07-09 16:14:56,050  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:14:56,050  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:14:56,051  INFO       [Uber] Target fares found so far: []
+2026-07-09 16:14:56,051  WARNING    [Uber] No target fares parsed from visible text
+2026-07-09 16:14:56,912  WARNING    Saved debug screenshot: data/debug_screenshots\uber_no_target_fare_text_20260709_161456.png
+2026-07-09 16:14:57,709  WARNING    [Uber] Attempt 1 failed for AIIMS Hospital Delhi, retrying
+2026-07-09 16:15:00,215  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 16:46:56,612  INFO     Starting fare collector
+2026-07-09 16:46:56,612  INFO       Interval  : every 30 min
+2026-07-09 16:46:56,613  INFO       Duration  : 1 cycle (--once)
+2026-07-09 16:46:56,613  INFO       Max cycles: 1
+2026-07-09 16:46:56,613  INFO       Output    : data/fares.csv
+2026-07-09 16:46:56,613  INFO     =======================================================
+2026-07-09 16:46:56,613  INFO       CYCLE 1  |  2026-07-09T16:46:56
+2026-07-09 16:46:56,613  INFO     =======================================================
+2026-07-09 16:46:57,582  INFO       [Weather] drizzle, 26.2°C, rain=0.2mm
+2026-07-09 16:46:57,584  INFO     -- Uber --
+2026-07-09 16:46:57,584  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-09 16:47:10,438  INFO       [uber] App launched
+2026-07-09 16:47:40,908  INFO       [Uber] Saved visible nodes dump: debug\uber_fare_screen_nodes.txt
+2026-07-09 16:47:41,149  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:47:41,150  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:47:41,153  INFO       [Uber] Scroll 0: collected 4 visible fares
+2026-07-09 16:47:41,154  INFO       [Uber] Total unique fares so far: 2
+2026-07-09 16:47:43,647  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:47:43,647  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:47:43,648  INFO       [Uber] Scroll 1: collected 4 visible fares
+2026-07-09 16:47:43,649  INFO       [Uber] Total unique fares so far: 2
+2026-07-09 16:47:45,233  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:47:45,234  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:47:45,234  INFO       [Uber] Scroll 2: collected 4 visible fares
+2026-07-09 16:47:45,235  INFO       [Uber] Total unique fares so far: 2
+2026-07-09 16:47:46,644  INFO       [Uber] Visible text nodes found: 25
+2026-07-09 16:47:46,644  INFO       [Uber] Price nodes found: 4
+2026-07-09 16:47:46,646  INFO       [Uber] Scroll 3: collected 4 visible fares
+2026-07-09 16:47:46,646  INFO       [Uber] Total unique fares so far: 2
+2026-07-09 16:47:46,646  INFO         uber Far: Rs.260.51 ETA=2min
+2026-07-09 16:47:46,646  INFO         uber Fare: Rs.258.05 ETA=3min
+2026-07-09 16:47:51,648  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-09 16:48:02,768  INFO       [uber] App launched

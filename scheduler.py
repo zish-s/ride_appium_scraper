@@ -6,12 +6,13 @@ import sys
 import time
 import argparse
 from datetime import datetime
+import re
 
 from config import (
     DESTINATIONS, INTERVAL_MINUTES, TOTAL_HOURS,
     CSV_OUTPUT_PATH, LOG_PATH
 )
-from collectors.uber_collector import fetch_uber_fares
+from collectors.uber_collector import fetch_uber_fares_for_destinations
 # from collectors.ola_collector import fetch_ola_fares
 # from collectors.rapido_collector import fetch_rapido_fares
 from collectors.weather_collector import get_weather
@@ -35,6 +36,42 @@ CSV_FIELDS = [
     "weather", "temp_c",
     "cycle_number",
 ]
+
+TARGET_VEHICLE_ALIASES = {
+    "uber_go_ac": ["uber go ac", "go ac"],
+    "auto": ["auto"],
+    "bike": ["bike", "moto", "uber moto"],
+}
+
+
+def normalize_vehicle_name(name: str) -> str:
+    return re.sub(r"\s+", " ", (name or "").lower().strip())
+
+
+def get_target_vehicle_category(vehicle_name: str):
+    name = normalize_vehicle_name(vehicle_name)
+
+    for category, aliases in TARGET_VEHICLE_ALIASES.items():
+        for alias in aliases:
+            if alias in name:
+                return category
+
+    return None
+
+
+def filter_target_vehicle_rows(rows: list) -> list:
+    """
+    Keeps only Uber Go AC, Auto, and Bike/Moto rows.
+    """
+    filtered = []
+
+    for row in rows:
+        category = get_target_vehicle_category(row.get("vehicle_type", ""))
+
+        if category:
+            filtered.append(row)
+
+    return filtered
 
 
 def write_rows(rows: list, cycle: int):
@@ -65,28 +102,26 @@ def run_one_cycle(cycle: int) -> int:
     weather  = get_weather()
     all_rows = []
 
-    collectors = [
-        ("Uber", fetch_uber_fares),
-        # ("Ola",    fetch_ola_fares),
-        # ("Rapido", fetch_rapido_fares),
-    ]
-
-    for app_name, fetch_fn in collectors:
-        logger.info(f"-- {app_name} --")
-        for dest in DESTINATIONS:
-            try:
-                rows = fetch_fn(dest, weather)
-                for row in rows:
-                    row.update({
-                        "timestamp":   timestamp,
-                        "date":        date_str,
-                        "time":        time_str,
-                        "day_of_week": day_str,
-                    })
-                all_rows.extend(rows)
-                time.sleep(2)
-            except Exception as e:
-                logger.error(f"  [{app_name}] Failed for {dest['name']}: {e}")
+    logger.info("-- Uber --")
+    
+    try:
+        rows = fetch_uber_fares_for_destinations(DESTINATIONS, weather)
+        
+        # If you added filtering for only Uber Go AC / Auto / Bike, keep this line
+        rows = filter_target_vehicle_rows(rows)
+        
+        for row in rows:
+            row.update({
+            "timestamp":   timestamp,
+            "date":        date_str,
+            "time":        time_str,
+            "day_of_week": day_str,
+            })
+        
+        all_rows.extend(rows)
+        
+    except Exception as e:
+        logger.error(f"  [Uber] Failed: {e}")
 
     write_rows(all_rows, cycle)
     logger.info(f"  Cycle {cycle} complete - {len(all_rows)} rows collected")

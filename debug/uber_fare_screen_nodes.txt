@@ -1,0 +1,25 @@
+Choose a ride | x=362-719 y=652-718 cx=540 cy=685
+selected,Uber Go AC,Fare ₹260.51,estimated drop-off 17:20, driver is 2 minutes away,estimated capacity 4,Faster | x=0-1080 y=775-1085 cx=540 cy=930
+Auto,Fare ₹258.05,estimated drop-off 17:21, driver is 3 minutes away,estimated capacity 3 | x=0-1080 y=1085-1332 cx=540 cy=1208
+Go Sedan,Fare ₹261.79,estimated drop-off 17:21, driver is 2 minutes away,estimated capacity 4 | x=0-1080 y=1332-1579 cx=540 cy=1455
+UberXL,Fare ₹425.04,estimated drop-off 17:22, driver is 3 minutes away,estimated capacity 6 | x=0-1080 y=1579-1826 cx=540 cy=1702
+Earn 10% back with a free trial of Uber One | x=225-810 y=1759-1881 cx=517 cy=1820
+Uber Cash: ₹12.88 & Cash | x=180-956 y=1974-2024 cx=568 cy=1999
+Uber Cash: ₹12.88 & Cash | x=180-644 y=1974-2024 cx=412 cy=1999
+Choose Uber Go AC | x=220-679 y=2144-2204 cx=449 cy=2174
+Schedule a Ride | x=877-1035 y=2095-2253 cx=956 cy=2174
+Vehicle | x=433-649 y=117-333 cx=541 cy=225
+Vehicle | x=432-648 y=115-331 cx=540 cy=223
+Vehicle | x=433-649 y=117-333 cx=541 cy=225
+Vehicle | x=433-649 y=117-333 cx=541 cy=225
+Vehicle | x=433-649 y=117-333 cx=541 cy=225
+Vehicle | x=445-657 y=127-339 cx=551 cy=233
+Vehicle | x=434-656 y=119-341 cx=545 cy=230
+Vehicle | x=432-652 y=116-336 cx=542 cy=226
+2 | x=601-621 y=263-309 cx=611 cy=286
+MIN | x=590-633 y=309-342 cx=611 cy=325
+IGDTUW Auditorium | x=685-894 y=254-345 cx=789 cy=299
+Aiims | x=266-385 y=314-368 cx=325 cy=341
+Google Map | x=0-1080 y=0-2340 cx=540 cy=1170
+Back | x=45-180 y=104-239 cx=112 cy=171
+Menu | x=45-180 y=104-239 cx=112 cy=171
