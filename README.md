@@ -42,3 +42,15 @@ ride_appium_scraper/
 ├── data/                     # Output CSV files
 ├── logs/                     # Runtime logs
 └── debug/                    # Screenshots and page-source debug dumps
+```
+
+## Future Updates
+
+- Extend data collection to Ola and Rapido for cross-platform fare comparison.
+- Scale data collection across more routes, pickup points, and time periods.
+- Collect data across minimum 2 weeks, to study fare variation patterns.
+- Add Google Maps traffic/ETA, route distance, rain intensity, and congestion features.
+- Train fare prediction models using the collected dataset.
+- Develop a rider decision recommendation system that suggests whether to book now or wait.
+- Define an asymmetric regret loss function where the cost of wrongly recommending `Wait` when fares rise is treated as higher than wrongly recommending `Book Now` when fares later fall.
+- Train and compare baseline models such as Always Book, Always Wait, Log-Linear Regression, Random Forest, and XGBoost.
