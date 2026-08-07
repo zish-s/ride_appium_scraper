@@ -376,6 +376,45 @@ def collect_all_fares_with_scroll(driver, destination: dict, weather: dict = Non
 
     return list(all_fares.values())
 
+def element_present(driver, selector_tuple) -> bool:
+    by, selector = selector_tuple
+    try:
+        return len(driver.find_elements(by, selector)) > 0
+    except Exception:
+        return False
+
+
+def return_to_uber_home(driver, max_backs: int = 5) -> bool:
+    """
+    Returns to Uber home screen without restarting the app.
+    Avoids blind driver.back() x2 assumptions.
+    """
+    for i in range(max_backs + 1):
+        if element_present(driver, SEL_WHERE_TO):
+            logger.info("  [Uber] Returned to home screen")
+            return True
+
+        try:
+            driver.back()
+            polite_delay(1.0, 1.5)
+        except Exception as e:
+            logger.warning(f"  [Uber] Back navigation failed: {e}")
+            break
+
+    # Last recovery: bring Uber forward again, but do not create a new driver.
+    try:
+        driver.activate_app(APP_PACKAGE)
+        polite_delay(2.0, 3.0)
+    except Exception:
+        pass
+
+    if element_present(driver, SEL_WHERE_TO):
+        logger.info("  [Uber] Home screen recovered after activate_app")
+        return True
+
+    debug_screenshot(driver, "uber_could_not_return_home")
+    return False
+
 def _attempt_uber_fetch(destination: dict, weather: dict = None) -> list:
     """One attempt at fetching fares for a single destination. Returns [] on failure."""
     logger.info(f"  [Uber] {PICKUP['name']} -> {destination['name']}")
@@ -479,7 +518,7 @@ def _fetch_uber_fares_on_existing_driver(driver, destination: dict, weather: dic
 
     results = []
 
-    if not ensure_home_screen(driver, SEL_WHERE_TO, APP_PACKAGE):
+    if not return_to_uber_home(driver):
         logger.error("  [Uber] Could not reach home screen")
         debug_screenshot(driver, "uber_no_home_screen")
         return []
@@ -549,10 +588,8 @@ def _fetch_uber_fares_on_existing_driver(driver, destination: dict, weather: dic
         )
 
     # Go back to home screen for next destination
-    driver.back()
-    polite_delay(1.0, 1.5)
-    driver.back()
-    polite_delay(1.5, 2.0)
+    if not return_to_uber_home(driver):
+        logger.warning("  [Uber] Could not fully reset to home after fare collection")
 
     return results
 
@@ -586,7 +623,7 @@ def fetch_uber_fares_for_destinations(destinations: list, weather: dict = None) 
                     )
 
                     # Try to reset to home before retrying same destination
-                    ensure_home_screen(driver, SEL_WHERE_TO, APP_PACKAGE)
+                    return_to_uber_home(driver)
                     polite_delay(2.0, 3.0)
 
                 except Exception as e:

@@ -1081,3 +1081,53 @@ io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The ele
 2026-07-09 17:31:56,267  ERROR      [Uber] Pickup field not found
 2026-07-09 17:31:56,927  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260709_173156.png
 2026-07-09 17:31:56,927  WARNING    [Uber] Attempt 1 failed for Connaught Place
+2026-07-21 21:30:54,536  INFO     Starting fare collector
+2026-07-21 21:30:54,536  INFO       Interval  : every 30 min
+2026-07-21 21:30:54,537  INFO       Duration  : 1 cycle (--once)
+2026-07-21 21:30:54,537  INFO       Max cycles: 1
+2026-07-21 21:30:54,537  INFO       Output    : data/fares.csv
+2026-07-21 21:30:54,537  INFO     =======================================================
+2026-07-21 21:30:54,537  INFO       CYCLE 1  |  2026-07-21T21:30:54
+2026-07-21 21:30:54,538  INFO     =======================================================
+2026-07-21 21:30:55,956  INFO       [Weather] overcast, 27.9°C, rain=0.0mm
+2026-07-21 21:30:55,960  INFO     -- Uber --
+2026-07-21 21:31:21,506  INFO       [uber] App launched
+2026-07-21 21:31:25,992  INFO       [Uber] IGDTUW -> AIIMS Hospital Delhi
+2026-07-21 21:31:27,359  INFO       [Uber] Returned to home screen
+2026-07-21 21:32:00,640  INFO       [Uber] Visible text nodes found: 24
+2026-07-21 21:32:00,641  INFO       [Uber] Price nodes found: 4
+2026-07-21 21:32:00,643  INFO       [Uber] Scroll 0: collected 4 visible fares
+2026-07-21 21:32:00,643  INFO       [Uber] Total unique fares so far: 4
+2026-07-21 21:32:04,095  INFO       [Uber] Visible text nodes found: 27
+2026-07-21 21:32:04,095  INFO       [Uber] Price nodes found: 5
+2026-07-21 21:32:04,098  INFO       [Uber] Scroll 1: collected 5 visible fares
+2026-07-21 21:32:04,099  INFO       [Uber] Total unique fares so far: 6
+2026-07-21 21:32:08,265  INFO       [Uber] Visible text nodes found: 27
+2026-07-21 21:32:08,266  INFO       [Uber] Price nodes found: 6
+2026-07-21 21:32:08,267  INFO       [Uber] Scroll 2: collected 6 visible fares
+2026-07-21 21:32:08,268  INFO       [Uber] Total unique fares so far: 8
+2026-07-21 21:32:11,201  INFO       [Uber] Visible text nodes found: 26
+2026-07-21 21:32:11,201  INFO       [Uber] Price nodes found: 6
+2026-07-21 21:32:11,202  INFO       [Uber] Scroll 3: collected 6 visible fares
+2026-07-21 21:32:11,202  INFO       [Uber] Total unique fares so far: 11
+2026-07-21 21:32:11,202  INFO         uber Uber Go AC: Rs.305.26 ETA=2min
+2026-07-21 21:32:11,202  INFO         uber Auto: Rs.259.08 ETA=3min
+2026-07-21 21:32:11,203  INFO         uber Go Sedan: Rs.306.76 ETA=2min
+2026-07-21 21:32:11,203  INFO         uber Bike: Rs.134.64 ETA=3min
+2026-07-21 21:32:11,203  INFO         uber Go Priority: Rs.350.3 ETA=1min
+2026-07-21 21:32:11,203  INFO         uber Request any: Rs.305.0 ETA=2min
+2026-07-21 21:32:11,204  INFO         uber Premier AC: Rs.329.85 ETA=1min
+2026-07-21 21:32:11,204  INFO         uber UberXL: Rs.480.41 ETA=2min
+2026-07-21 21:32:11,204  INFO         uber Go Rentals: Rs.535.0 ETA=1min
+2026-07-21 21:32:11,204  INFO         uber Premier Rentals: Rs.673.0 ETA=2min
+2026-07-21 21:32:11,204  INFO         uber XL Rentals: Rs.880.0 ETA=3min
+2026-07-21 21:32:17,810  INFO       [Uber] Returned to home screen
+2026-07-21 21:32:17,811  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-21 21:32:18,434  INFO       [Uber] Returned to home screen
+2026-07-21 21:32:41,862  WARNING    Element not found in 20s: com.ubercab:id/ub__location_edit_search_pickup_view
+2026-07-21 21:32:41,863  ERROR      [Uber] Pickup field not found
+2026-07-21 21:32:42,461  WARNING    Saved debug screenshot: data/debug_screenshots\uber_pickup_field_missing_20260721_213241.png
+2026-07-21 21:32:42,463  WARNING    [Uber] Attempt 1 failed for Connaught Place
+2026-07-21 21:32:45,269  INFO       [Uber] Returned to home screen
+2026-07-21 21:32:48,102  INFO       [Uber] IGDTUW -> Connaught Place
+2026-07-21 21:32:48,325  INFO       [Uber] Returned to home screen
